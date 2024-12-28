@@ -40,7 +40,7 @@ const AddNewTask = () => {
 
     try {
       const response = await axios.post(
-        'http://localhost:8080/api/v1/task/addTask',
+        'https://task-management-app-56ke.onrender.com/task/addTask',
         task,
         {
           withCredentials: true,
