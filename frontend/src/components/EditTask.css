@@ -1,0 +1,80 @@
+.update-task {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-task h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .update-task .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .update-task .form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .update-task .form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .update-task .form-group input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  .update-task .form-group input[type="datetime-local"] {
+    padding-left: 10px;
+  }
+  
+  .update-task .form-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .update-task .btn-update {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .update-task .btn-update:hover {
+    background-color: #45a049;
+  }
+  
+  .update-task .btn-update:active {
+    background-color: #3e8e41;
+  }
+  
+  .update-task .form-group input:focus,
+  .update-task .btn-update:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .update-task .form-group input::placeholder {
+    color: #aaa;
+  }
+  

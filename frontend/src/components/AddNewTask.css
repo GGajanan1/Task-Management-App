@@ -1,0 +1,46 @@
+.add-task {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-task h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-task .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-task .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .add-task .form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-task .btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-task .btn-submit:hover {
+    background-color: #45a049;
+  }
+  
