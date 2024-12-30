@@ -10,9 +10,10 @@ const errorMiddleware=require('./middlewares/error');
 
 app.use(
     cors({
-      origin: [process.env.FRONTEND_URL],
+      origin: [process.env.FRONTEND_URL,"http://localhost:5173"],
       method: ["GET", "POST", "DELETE", "PUT"],
       credentials: true,
+      allowedHeaders: ["*"]
     })
 );
 
